@@ -17,6 +17,6 @@ function getQuote() {
   document.getElementById("book").innerHTML = book;
   var a = document.getElementById("share");
   var quoteUrl = quote.replace(/\s+/g, "%20");
-  var tweet = "http://twitter.com/share?text=".concat(quoteUrl, "&url=http://codepen.io/pwdd/pen/yNdKwJ&hashtag=fcc-project");
+  var tweet = "http://twitter.com/share?text=".concat(quoteUrl, "&url=http://codepen.io/pwdd/full/yNdKwJ/&hashtag=fcc-project");
   a.setAttribute("href", tweet);
 };

@@ -35,7 +35,15 @@
 }
 
 .credit {
-  position: absolute;
-  bottom: 10px;
+  margin-top: 20px;
   color: black;
 }
+
+@media (min-width: 580px) {
+  .credit {
+    position: absolute;
+    bottom: 10px;
+    color: black;
+  }
+}
+
